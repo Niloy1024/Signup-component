@@ -1,3 +1,7 @@
+:root{
+  --primary:red;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +15,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.progress-bar{
+  height: 5px;
+  background: var(--primary);
+  margin-top: 20px;
 }
 
 .App-header {
@@ -35,4 +45,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.imgclass{
+  object-fit: cover;
 }
